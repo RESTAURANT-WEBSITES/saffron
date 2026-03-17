@@ -483,7 +483,7 @@ Total: $${total.toFixed(2)}
               {/* Continue Ordering */}
               <button
                 onClick={continueOrdering}
-                className="w-full py-3 border border-gold text-gold font-semibold text-sm tracking-widest uppercase rounded-sm hover:bg-gold hover:text-white transition-colors"
+                className="w-full py-3 btn-glass rounded-full text-xs"
               >
                 + Add More Items
               </button>
@@ -491,7 +491,7 @@ Total: $${total.toFixed(2)}
               {/* WhatsApp Order Button */}
               <button
                 onClick={sendWhatsAppOrder}
-                className="w-full py-4 bg-gold text-primary-foreground font-sans font-semibold text-sm tracking-widest uppercase rounded-sm hover:bg-gold-light transition-colors"
+                className="w-full py-4 btn-glass rounded-full text-sm"
               >
                 Order via WhatsApp
               </button>

@@ -140,9 +140,9 @@ const MenuSection = () => {
             <button
               key={tab}
               onClick={() => setActiveTab(tab)}
-              className={`px-8 py-3 font-sans text-sm tracking-widest uppercase rounded-sm transition-all duration-300 ${activeTab === tab
-                ? "bg-gold text-primary-foreground"
-                : "border border-border text-muted-foreground hover:border-gold/40 hover:text-gold"
+              className={`px-8 py-3 font-sans text-sm tracking-widest uppercase rounded-full transition-all duration-300 ${activeTab === tab
+                ? "bg-gold text-primary-foreground shadow-lg shadow-gold/20 border border-gold font-bold"
+                : "btn-glass"
                 }`}
             >
               {tab}
@@ -187,7 +187,7 @@ const MenuSection = () => {
                       price: item.price
                     })
                   }
-                  className="mt-auto w-full py-2 border border-gold text-gold hover:bg-gold hover:text-primary-foreground transition-all duration-300 rounded flex items-center justify-center gap-2"
+                  className="mt-auto w-full py-2 btn-glass rounded-full flex items-center justify-center gap-2 text-xs"
                 >
                   <Plus size={16} />
                   Add to Order

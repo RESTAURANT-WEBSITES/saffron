@@ -56,7 +56,7 @@ const ContactSection = () => (
         <div className="bg-surface-elevated border border-border rounded-sm overflow-hidden min-h-[400px] flex items-center justify-center">
           <iframe
             title="Restaurant Location"
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d453964.9915563105!2d76.35225634087213!3d10.8019494569473!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba87131d068b603%3A0xdf5c9e0904414f9a!2sSaffron%20Restaurant%20%26%20Cafe!5e1!3m2!1sen!2sin!4v1772971221880!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.4125579974593!2d76.51903748200071!3d10.856192858161354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8770018ff6013%3A0x60226035aa7a4ef2!2sSAFFRON%20Bakes%20%26%20Restaurant!5e0!3m2!1sen!2sin!4v1773767343111!5m2!1sen!2sin"
             width="100%"
             height="100%"
             style={{

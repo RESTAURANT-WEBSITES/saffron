@@ -114,7 +114,7 @@ const ReservationSection = () => {
               <input type="tel" placeholder="+1 (555) 000-0000" value={form.phone} onChange={(e) => setForm({ ...form, phone: e.target.value })} className={inputClass} maxLength={20} />
             </div>
           </div>
-          <button type="submit" className="w-full py-4 bg-gold text-primary-foreground font-sans font-semibold text-sm tracking-widest uppercase rounded-sm hover:bg-gold-light transition-colors duration-300">
+          <button type="submit" className="w-full py-4 btn-glass rounded-full text-sm">
             Confirm Reservation
           </button>
         </form>

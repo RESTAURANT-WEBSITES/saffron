@@ -18,10 +18,10 @@ const HeroSection = () => (
         Experience culinary artistry high above the city skyline. Where every dish tells a story and every view takes your breath away.
       </p>
       <div className="flex flex-col sm:flex-row gap-4 justify-center">
-        <a href="#reservation" className="px-10 py-4 bg-gold text-primary-foreground font-sans font-semibold text-sm tracking-widest uppercase rounded-sm hover:bg-gold-light transition-all duration-300">
+        <a href="#reservation" className="px-10 py-4 btn-glass rounded-full text-sm inline-flex items-center justify-center">
           Reserve a Table
         </a>
-        <a href="#menu" className="px-10 py-4 border border-gold text-gold font-sans font-semibold text-sm tracking-widest uppercase rounded-sm hover:bg-gold/10 transition-all duration-300">
+        <a href="#menu" className="px-10 py-4 btn-glass rounded-full text-sm inline-flex items-center justify-center">
           View Menu
         </a>
       </div>
