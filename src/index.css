@@ -109,7 +109,7 @@
     border-image: linear-gradient(135deg, hsl(var(--gold-dark)), hsl(var(--gold-light))) 1;
   }
   .btn-glass {
-    @apply bg-surface/40 backdrop-blur-md border border-border/50 text-gold font-sans font-semibold tracking-widest uppercase shadow-lg shadow-black/20 hover:bg-gold hover:text-primary-foreground hover:border-gold hover:shadow-gold/20 transition-all duration-300;
+    @apply bg-surface/40 backdrop-blur-md border border-border/50 text-white font-sans font-semibold tracking-widest uppercase shadow-lg shadow-black/20 hover:bg-gold hover:text-primary-foreground hover:border-gold hover:shadow-gold/20 transition-all duration-300;
   }
 }
 
