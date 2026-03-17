@@ -4,7 +4,7 @@ const hero_bg_url = heroBg;
 
 const HeroSection = () => (
   <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
-    <div className="absolute inset-0 opacity-20">
+    <div className="absolute inset-0 opacity-60">
       <img src={hero_bg_url} alt="Saffron Restaurant" className="w-full h-full object-cover" />
       <div className="absolute inset-0 bg-gradient-to-b from-background/80 via-transparent to-background/80" />
     </div>
