@@ -10,19 +10,27 @@ const HeroSection = () => (
     </div>
     <div className="relative z-10 text-center px-4 max-w-4xl mx-auto animate-fade-in-up">
       <div className="w-16 h-px bg-gold mx-auto mb-8" />
-      <h1 className="font-serif text-5xl sm:text-6xl lg:text-7xl font-bold text-foreground leading-tight mb-6">
-        Elevated Dining,<br />
-        <span className="gold-text-gradient">Unmatched Views.</span>
+      <h1
+        className="font-serif text-5xl sm:text-6xl lg:text-7xl font-bold leading-tight mb-6"
+        style={{
+          color: "transparent",
+          WebkitTextStroke: "2px #D4AF37",
+          textShadow:
+            "0 0 18px rgba(212, 175, 55, 0.9), 0 0 40px rgba(212, 175, 55, 0.6), 0 0 80px rgba(212, 175, 55, 0.35)",
+          paintOrder: "stroke fill",
+        }}
+      >
+        Hungry for Delicious food?
       </h1>
       <p className="font-sans text-lg text-white max-w-2xl mx-auto mb-10 leading-relaxed">
         Experience culinary artistry high above the city skyline. Where every dish tells a story and every view takes your breath away.
       </p>
       <div className="flex flex-col sm:flex-row gap-4 justify-center">
         <a href="#reservation" className="px-10 py-4 btn-glass rounded-full text-sm inline-flex items-center justify-center">
-          Reserve a Table
+          Book a Table
         </a>
         <a href="#menu" className="px-10 py-4 btn-glass rounded-full text-sm inline-flex items-center justify-center">
-          View Menu
+          Order Online
         </a>
       </div>
       <div className="w-16 h-px bg-gold mx-auto mt-12" />
