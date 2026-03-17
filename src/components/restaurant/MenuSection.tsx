@@ -187,7 +187,7 @@ const MenuSection = () => {
                       price: item.price
                     })
                   }
-                  className="mt-auto w-full py-2 btn-glass rounded-full flex items-center justify-center gap-2 text-xs"
+                  className="mt-auto w-full py-2.5 bg-gold text-black font-sans font-bold tracking-widest uppercase rounded-full flex items-center justify-center gap-2 text-xs shadow-lg shadow-gold/20 hover:bg-white hover:text-gold hover:-translate-y-1 hover:shadow-gold/40 transition-all duration-300"
                 >
                   <Plus size={16} />
                   Add to Order
