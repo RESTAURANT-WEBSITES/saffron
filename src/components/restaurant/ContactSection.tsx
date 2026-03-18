@@ -17,20 +17,21 @@ const ContactSection = () => (
             <div>
               <h4 className="font-serif text-lg font-semibold text-foreground mb-1">Address</h4>
               <p className="text-muted-foreground">
-                Poriyani<br />
-                Mundur, Palakkad<br />
+                Kongad<br />
+                Palakkad<br />
                 Kerala 678592
               </p>            </div>
-          </div>
-          <div className="flex items-start gap-4">
-            <div className="w-12 h-12 rounded-full bg-gold/10 flex items-center justify-center flex-shrink-0">
-              <Phone className="text-gold" size={20} />
-            </div>
-            <div>
-              <h4 className="font-serif text-lg font-semibold text-foreground mb-1">Phone</h4>
-              <p className="text-muted-foreground">+91 8086661230</p>
-            </div>
-          </div>
+          </div><br />
+          <a href="tel:+916238426420">
+            <div className="flex items-start gap-4">
+              <div className="w-12 h-12 rounded-full bg-gold/10 flex items-center justify-center flex-shrink-0">
+                <Phone className="text-gold" size={20} />
+              </div>
+              <div>
+                <h4 className="font-serif text-lg font-semibold text-foreground mb-1">Phone</h4>
+                <p className="text-muted-foreground">+91 6238426420</p>
+              </div>
+            </div></a>
           <div className="flex items-start gap-4">
             <div className="w-12 h-12 rounded-full bg-gold/10 flex items-center justify-center flex-shrink-0">
               <Mail className="text-gold" size={20} />
@@ -47,7 +48,7 @@ const ContactSection = () => (
             <div>
               <h4 className="font-serif text-lg font-semibold text-foreground mb-1">Opening Hours</h4>
               <div className="text-muted-foreground space-y-1">
-                <p>Open Daily: 10:00 AM – 12:00 AM</p>
+                <p>Open Daily: 10:00 AM – 10:00 PM</p>
               </div>
             </div>
           </div>
@@ -70,7 +71,7 @@ const ContactSection = () => (
         </div>
       </div>
     </div>
-  </section>
+  </section >
 );
 
 export default ContactSection;

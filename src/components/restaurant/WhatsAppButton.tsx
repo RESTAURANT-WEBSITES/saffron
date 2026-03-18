@@ -59,39 +59,6 @@
 // export default WhatsAppButton;
 
 
-import { FaWhatsapp, FaPhone } from "react-icons/fa";
-
-const whatsappNumber = "919876543210"; // your WhatsApp number
-const callNumber = "6238426420"; // phone call number
-
-const WhatsAppButton = () => {
-
-  const openWhatsApp = () => {
-    const message = "Hello Saffron Restaurant & Cafe";
-    const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
-    window.open(url, "_blank");
-  };
-
-  return (
-    <div className="fixed bottom-6 right-6 z-50 flex flex-col items-end gap-3">
-      <button
-        onClick={openWhatsApp}
-        aria-label="Chat on WhatsApp"
-        className="w-14 h-14 rounded-full shadow-lg shadow-green-900/30 flex items-center justify-center transition-transform duration-300 hover:scale-110"
-        style={{ backgroundColor: "#25D366" }}
-      >
-        <FaWhatsapp size={24} className="text-white" />
-      </button>
-
-      <a
-        href={`tel:${callNumber}`}
-        aria-label="Call Saffron Restaurant"
-        className="w-14 h-14 rounded-full shadow-lg shadow-emerald-900/20 flex items-center justify-center bg-gold text-primary-foreground transition-transform duration-300 hover:scale-110"
-      >
-        <FaPhone size={22} />
-      </a>
-    </div>
-  );
-};
+const WhatsAppButton = () => null;
 
 export default WhatsAppButton;
