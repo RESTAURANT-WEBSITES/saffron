@@ -1,17 +1,28 @@
-import g1 from "@/assets/gallery/gallery-1.jpg";
-import g2 from "@/assets/gallery/gallery-2.jpg";
-import g3 from "@/assets/gallery/gallery-3.jpg";
-import g4 from "@/assets/gallery/gallery-4.jpg";
-import g5 from "@/assets/gallery/gallery-5.jpg";
-import g6 from "@/assets/gallery/gallery-6.jpg";
-
 const gallery_images = [
-  { src: g1, alt: "Gourmet dish" },
-  { src: g2, alt: "Signature cocktail" },
-  { src: g3, alt: "Restaurant interior" },
-  { src: g4, alt: "Wagyu steak" },
-  { src: g5, alt: "Panoramic view" },
-  { src: g6, alt: "Dessert" },
+  {
+    src: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80",
+    alt: "Gourmet dish",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=800&q=80",
+    alt: "Signature cocktail",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80",
+    alt: "Restaurant interior",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1558030006-450675393462?w=800&q=80",
+    alt: "Wagyu steak",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80",
+    alt: "Panoramic view",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1551024506-0bccd828d307?w=800&q=80",
+    alt: "Dessert",
+  },
 ];
 
 const GallerySection = () => (

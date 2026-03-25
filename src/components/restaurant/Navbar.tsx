@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Menu, X, ShoppingBag } from "lucide-react";
 import { useCart } from "@/context/CartContext";
+import ThemeToggle from "./ThemeToggle";
 import logoImg from "/image.png";
 
 const navLinks = [
@@ -63,6 +64,8 @@ const Navbar = () => {
             )}
           </button>
           
+          <ThemeToggle />
+
           <button className="md:hidden text-foreground pr-1 pl-2" onClick={() => setMobileOpen(!mobileOpen)}>
             {mobileOpen ? <X size={20} /> : <Menu size={20} />}
           </button>
